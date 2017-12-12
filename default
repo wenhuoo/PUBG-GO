@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>PUBG</h1>
+
+<p id="ErangelNumbers"></p>
+
+<script>
+	var townsErangel = [
+	"Georgopol",
+	"Severny",
+	"Pochinki",
+	"Lipovka",
+	"Mylta Power (Big)",
+	"Mylta Power (Small)",
+	"Primorsk",
+	"Shooting Range",
+	"Rozhok",
+	"Mylta",
+	"Mili Base",
+	"Ruins",
+	"Novorepnoye",
+	"Gatka",
+	"Mansion",
+	"Zharki",
+	"School",
+	"Prison",
+	"Farm",
+	"Ferry Pier",
+	"Hospital",		
+	"Water Town",
+	"Shelter",
+	"Yasnaya Polyana"
+	];
+
+document.getElementById('ErangelNumbers').innerHTML ="Totally " + townsErangel.length + " palce in Erangel to go";
+
+</script>
+
+<button onclick="document.getElementById('target').innerHTML = townsErangel[getRndInteger(0,townsErangel.length - 1)]">Click to Choose your town for Erangel
+</button>
+
+<p id="target"></p>
+
+<script>
+	function getRndInteger(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+</script>
+
+<p id = "miramarNumbers"></p>
+
+<script>
+	var townsMiramar = 
+	[
+		"El Pozo",
+		"Ruins",
+		"Trailer Park",
+		"La Cobreria",
+		"Crater Fields",
+		"Water Treatment",
+		"Torre Ahumada",
+		"Cruz del Valle",
+		"Campo Militar",
+		"Tierra Bronca",
+		"El Azahar",
+		"Hacienda del Pantron",
+		"San Martin",
+		"Power Grid",
+		"Monte Nuevo",
+		"Pecado",
+		"Graveyard",
+		"Minas Generales",
+		"Junkyard",
+		"La Bendita",
+		"Lardrillera",
+		"Chumacera",
+		"Impala",
+		"Los Leones",
+		"Valle del Mar",
+		"Minas del Valle",
+		"Puerto Paraiso",
+		"Prison",
+		"Minas del Sur",
+		"Los Higos",
+		"Two Islands"
+	];
+
+	document.getElementById('miramarNumbers').innerHTML ="Totally " + townsMiramar.length + " palce in Miramar to go";
+</script>
+
+<button onclick="document.getElementById('targetM').innerHTML = townsMiramar[getRndInteger(0, townsMiramar.length - 1)]">Click to Choose your town for Miramar</button>
+
+<p id = "targetM"></p>
+</body>
+</html> 
