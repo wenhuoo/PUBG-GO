@@ -7,25 +7,21 @@
 <div class="container">
 <div class="row">
 <div class="col-12">
-	<div style="background-color: pink;text-align:center;">Hello!</div>
+/* <div style="background-color: pink;text-align:center;">Hello!</div> */
+<div style="width:100%;height:100vh;display:flex;align-items:center;justify-content:center;">
+<h1>PUBG</h1>
+<p id="ErangelNumbers"></p>
+<button onclick="document.getElementById('target').innerHTML = townsErangel[getRndInteger(0,townsErangel.length - 1)]">Click to Choose your town for Erangel
+</button>
+<p id="target"></p>
+<p id = "miramarNumbers"></p>
+<button onclick="document.getElementById('targetM').innerHTML = townsMiramar[getRndInteger(0, townsMiramar.length - 1)]">Click to Choose your town for Miramar</button>
+<p id = "targetM"></p>
+</div>
 </div>	
 </div>
 </div>
-<h1>PUBG</h1>
 
-<p id="ErangelNumbers"></p>
-
-<button onclick="document.getElementById('target').innerHTML = townsErangel[getRndInteger(0,townsErangel.length - 1)]">Click to Choose your town for Erangel
-</button>
-
-<p id="target"></p>
-<p id = "miramarNumbers"></p>
-
-
-
-<button onclick="document.getElementById('targetM').innerHTML = townsMiramar[getRndInteger(0, townsMiramar.length - 1)]">Click to Choose your town for Miramar</button>
-
-<p id = "targetM"></p>
 </body>
 <script>
 	var townsErangel = [
