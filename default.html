@@ -1,30 +1,41 @@
 <!DOCTYPE html>
 <html>
-<header>
+<head>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
-</header>
+</head>
 <body>
 <div class="container">
 <div class="row">
 <div class="col-12">
 <div style="width:100%;text-align:center;margin-top:20%;">
 <div>
-<h1>PUBG</h1>
+<h1 class="animated infinite bounce">PUBG</h1>
 <p id="ErangelNumbers"></p>
-<button class="btn" onclick="document.getElementById('target').innerHTML = townsErangel[getRndInteger(0,townsErangel.length - 1)]">Click to Choose your town for Erangel
+<button class="btn" onclick="document.getElementById('targetE').innerHTML = townsErangel[getRndInteger(0,townsErangel.length - 1)]">Click to Choose your town for Erangel
 </button>
-<p style="margin-top: 12px; animation:bounceIn 0.2s linear;" id="target"></p>
+<p class="animated infinite bounce" style="margin-top: 12px;" id="targetE"></p>
 <p id = "miramarNumbers"></p>
 <button class="btn" onclick="document.getElementById('targetM').innerHTML = townsMiramar[getRndInteger(0, townsMiramar.length - 1)]">Click to Choose your town for Miramar</button>
-<p style="margin-top: 12px; animation:bounceIn 0.2s linear;" id = "targetM"></p>
+<p class="animated infinite bounce" style="margin-top: 12px;" id = "targetM"></p>
 </div>
 </div>
 </div>	
 </div>
 </div>
-
 </body>
+
+
+<script>
+	function getRndInteger(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+</script>
+
+<script>
+	function randomPick ()
+</script>
+
 <script>
 	var townsErangel = [
 	"Georgopol",
@@ -52,14 +63,9 @@
 	"Shelter",
 	"Yasnaya Polyana"
 	];
-
 document.getElementById('ErangelNumbers').innerHTML ="Totally " + townsErangel.length + " palce in Erangel to go";
 </script>
-<script>
-	function getRndInteger(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-}
-</script>
+
 <script>
 	var townsMiramar = 
 	[
@@ -95,7 +101,7 @@ document.getElementById('ErangelNumbers').innerHTML ="Totally " + townsErangel.l
 		"Los Higos",
 		"Two Islands"
 	];
-
 	document.getElementById('miramarNumbers').innerHTML ="Totally " + townsMiramar.length + " palce in Miramar to go";
 </script>
+
 </html> 
