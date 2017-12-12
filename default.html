@@ -2,6 +2,7 @@
 <html>
 <header>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
 </header>
 <body>
 <div class="container">
@@ -11,12 +12,12 @@
 <div>
 <h1>PUBG</h1>
 <p id="ErangelNumbers"></p>
-<button onclick="document.getElementById('target').innerHTML = townsErangel[getRndInteger(0,townsErangel.length - 1)]">Click to Choose your town for Erangel
+<button class="btn" onclick="document.getElementById('target').innerHTML = townsErangel[getRndInteger(0,townsErangel.length - 1)]">Click to Choose your town for Erangel
 </button>
-<p id="target"></p>
+<p class="margin-top: 12px; animation:bounceIn 0.2s linear;" id="target"></p>
 <p id = "miramarNumbers"></p>
-<button onclick="document.getElementById('targetM').innerHTML = townsMiramar[getRndInteger(0, townsMiramar.length - 1)]">Click to Choose your town for Miramar</button>
-<p id = "targetM"></p>
+<button class="btn" onclick="document.getElementById('targetM').innerHTML = townsMiramar[getRndInteger(0, townsMiramar.length - 1)]">Click to Choose your town for Miramar</button>
+<p class="margin-top: 12px; animation:bounceIn 0.2s linear;" id = "targetM"></p>
 </div>
 </div>
 </div>	
