@@ -1,7 +1,6 @@
 # PUBG-GO
 
-![helmet] [pic]
-[pic]: http://wenhuoo.github.io/PUBG-GO/IMG/3helmet.jpg
+![helmet](http://wenhuoo.github.io/PUBG-GO/IMG/3helmet.jpg)
 
 ### Confused where to go in PUBG?
 
