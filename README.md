@@ -10,4 +10,4 @@ Click:
 
 [Where df should I GO?](https://wenhuoo.github.io/PUBG-GO)
 
-Blame it!
+Take the blame out of your own hands.
