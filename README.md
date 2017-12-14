@@ -2,7 +2,7 @@
 
 Confused where to go in PUBG?
 
-Wanna get a lucky Chikin Dinna destination?
+Wanna get a lucky Chicken Dinner destination?
 
 Blaming the circle?
 
