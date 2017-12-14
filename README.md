@@ -1,6 +1,7 @@
 # PUBG-GO
 
 ![helmet] [pic]
+[pic]: http://chikindinna.win/IMG/3helmet.jpg
 
 ### Confused where to go in PUBG?
 
@@ -14,4 +15,4 @@
 
 ### Take the blame out of your own hands.
 
-[pic]: http://chikindinna.win/IMG/3helmet.jpg
+
