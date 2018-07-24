@@ -1,76 +1,80 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, user-scalable=no">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
-<link rel="shortcut icon" href="https://cdn.tsicons.com/icons/BnyL7ol4OMrqq0.png" type="image/x-icon" />
-</head>
-	
-<body>
-<div class="container-fluid; bg-dark text-white" style="background-image: url(https://images5.alphacoders.com/887/887546.png)">
-<div class="row">
-<div class="col-12">
-<div style="width:100%;text-align:center; height: 100vh; padding-top:20%;">
-<div>
-	
-<h1 class="animated zoomInUp" style="font-size: 300%; font-family: verdana; color: grey">Winna Winna <br>Chi Kin Dinna<br><br></h1>
-	
-<p class="animated infinite pulse" style="margin-top: 12px; font-size: 125%; color: black" id="target"></p>
-	
-<button class="btn btn-outline-dark" type = "button" onclick="document.getElementById('target').innerHTML = townsErangel[getRndInteger(0,townsErangel.length - 1)]">Go Erangel
-</button>
-	
-<button class="btn btn-outline-dark" type = "button" onclick="document.getElementById('target').innerHTML = townsMiramar[getRndInteger(0, townsMiramar.length - 1)]">Go Miramar</button>
 
-<button class="btn btn-outline-dark" type = "button" onclick="document.getElementById('target').innerHTML = townsSanhok[getRndInteger(0, townsSanhok.length - 1)]">Sanhok</button>
-	
-</div>
-</div>
-</div>	
-</div>
-</div>
+<head>
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+	    crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+	<link rel="shortcut icon" href="https://cdn.tsicons.com/icons/BnyL7ol4OMrqq0.png" type="image/x-icon" />
+</head>
+
+<body>
+	<div class="container-fluid; bg-dark text-white" style="background-image: url(https://images5.alphacoders.com/887/887546.png)">
+		<div class="row">
+			<div class="col-12">
+				<div style="width:100%;text-align:center; height: 100vh; padding-top:20%;">
+					<div>
+
+						<h1 class="animated zoomInUp" style="font-size: 300%; font-family: verdana; color: grey">Winna Winna
+							<br>Chi Kin Dinna
+							<br>
+							<br>
+						</h1>
+
+						<p class="animated infinite pulse" style="margin-top: 12px; font-size: 125%; color: black" id="target"></p>
+
+						<div class="btn-group" role="group" aria-label="Basic example">
+							<button class="btn btn-outline-dark" type="button" onclick="document.getElementById('target').innerHTML = townsErangel[getRndInteger(0,townsErangel.length - 1)]">Go Erangel</button>
+							<button class="btn btn-outline-dark" type="button" onclick="document.getElementById('target').innerHTML = townsMiramar[getRndInteger(0, townsMiramar.length - 1)]">Go Miramar</button>
+							<button class="btn btn-outline-dark" type="button" onclick="document.getElementById('target').innerHTML = townsSanhok[getRndInteger(0, townsSanhok.length - 1)]">Go Sanhok</button>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 
 
 <script>
 	function getRndInteger(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-}
+		return Math.floor(Math.random() * (max - min + 1)) + min;
+	}
 </script>
 
 <script>
 	var townsErangel = [
-	"Georgopol",
-	"Severny",
-	"Pochinki",
-	"Lipovka",
-	"Mylta Power (Big)",
-	"Mylta Power (Small)",
-	"Primorsk",
-	"Shooting Range",
-	"Rozhok",
-	"Mylta",
-	"Mili Base",
-	"Ruins",
-	"Novorepnoye",
-	"Gatka",
-	"Mansion",
-	"Zharki",
-	"School",
-	"Prison",
-	"Farm",
-	"Ferry Pier",
-	"Hospital",		
-	"Water Town",
-	"Shelter",
-	"Yasnaya Polyana"
+		"Georgopol",
+		"Severny",
+		"Pochinki",
+		"Lipovka",
+		"Mylta Power (Big)",
+		"Mylta Power (Small)",
+		"Primorsk",
+		"Shooting Range",
+		"Rozhok",
+		"Mylta",
+		"Mili Base",
+		"Ruins",
+		"Novorepnoye",
+		"Gatka",
+		"Mansion",
+		"Zharki",
+		"School",
+		"Prison",
+		"Farm",
+		"Ferry Pier",
+		"Hospital",
+		"Water Town",
+		"Shelter",
+		"Yasnaya Polyana"
 	];
 </script>
 
 <script>
-	var townsMiramar = 
-	[
+	var townsMiramar = [
 		"El Pozo",
 		"Ruins",
 		"Trailer Park",
@@ -106,8 +110,7 @@
 </script>
 
 <script>
-	var locationsFortnite = 
-	[
+	var locationsFortnite = [
 		"JUNK JUNCTION",
 		"HAUNTED HILLS",
 		"SNOBBY SHORES",
@@ -128,10 +131,9 @@
 		"RETAIL ROW"
 	];
 </script>
-	
+
 <script>
-	var townsSanhok = 
-	[
+	var townsSanhok = [
 		"Ban Tai",
 		"Camp Alpha",
 		"Camp Bravo",
@@ -153,4 +155,5 @@
 		"Quarry"
 	];
 </script>
-</html> 
+
+</html>
