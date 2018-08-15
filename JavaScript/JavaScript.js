@@ -2,11 +2,6 @@ function getRndInteger(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-function test() {
-    document.getElementById('target').innerHTML = townsErangel[getRndInteger(0, townsErangel.length - 1)];
-}
-
-
 function btnClick(input) {
 
     if (input == "Erangel") {
@@ -18,7 +13,6 @@ function btnClick(input) {
     else if (input == "Sanhok") {
         document.getElementById('target').innerHTML = townsSanhok[getRndInteger(0, townsSanhok.length - 1)];
     }
-
 }
 
 
