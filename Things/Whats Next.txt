@@ -1,0 +1,3 @@
+Planning:
+    Click to open card with map
+    Next click will draw circle on location
