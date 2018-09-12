@@ -1,29 +1,53 @@
-#target {
-    margin-top: 12px; 
-    font-size: 125%; 
-    font-weight: bold; 
-    font-variant: small-caps; 
-    color: black
-  }
-  #target:hover {
-    color: whitesmoke
-  }
+#pSanhok, #pErangel, #pMiramar {
+  margin-top: 12px; 
+  font-size: 125%; 
+  font-weight: bold; 
+  font-variant: small-caps; 
+  color: black
+}
+#pSanhok:hover, #pErangel:hover, #pMiramar:hover {
+  color: whitesmoke;
+  font-size:xx-large;
+  animation: none;
   
-  h1 {
-    font-size: 300%; 
-    font-family: verdana; 
-    color: rgb(41, 41, 41);
-    border: #f7f7f7 solid white
-  }
-  
-  #main{
-    background: url("../IMG/BgSanhok.jpg") no-repeat center center fixed; 
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-      overflow: hidden;
-  }
+}
+
+h1 {
+  font-size: 300%; 
+  font-family: verdana; 
+  color: rgb(41, 41, 41);
+  border: #f7f7f7 solid white
+}
+
+#mainErangel{
+  background: url(../IMG/BgErangel.jpg) no-repeat center center fixed;  
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  height: 100%;
+}
+
+#mainSanhok{
+  background: url(../IMG/BgSanhok.jpg) no-repeat center center fixed;  
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  height: 100%;
+}
+
+#mainMiramar{
+  background: url(../IMG/BgMiramar.jpg) no-repeat center center fixed;  
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  height: 100%;
+}
   
   #part1 {
     width:100%;

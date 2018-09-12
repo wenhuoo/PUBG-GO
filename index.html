@@ -75,47 +75,97 @@
 	</nav>
 
 
-	<div class="cover-container container-fluid; bg-dark text-white" id="main">
-		<div class="row">
-			<div class="col-12">
-				<div id="part1">
-					<div>
-						<header>
-							<h1 class="animated zoomInUp">Winna Winna
-								<br>Chi Kin Dinna
-								<br>
-								<br>
-							</h1>
-						</header>
+	<div class="tab-content" id="nav-tabContent">
 
-						<p class="animated infinite pulse" id="target"></p>
+        <div class="tab-pane fade show active" role="tabpanel" aria-labelledby="nav-Sanhok-tab" id="nav-Sanhok">
+            <div class="cover-container container-fluid; bg-dark text-white" id="mainSanhok">
+                <div class="row">
+                    <div class="col-12">
+                        <div id="part1">
+                            <div>
+                                <header>
+                                    <h1 class="animated zoomInUp text-warning">Winna Winna
+                                        <br>Chi Kin Dinna
+                                        <br>
+                                        <br>
+                                    </h1>
+                                </header>
 
-						<div class="tab-content" id="nav-tabContent">
+                                <p class="animated infinite pulse text-warning" id="pSanhok"></p>
+                                <button class="btn btn-warning" type="button" onclick="btnClick('Sanhok')">Go Sanhok</button>
 
-							<div class="tab-pane fade show active" role="tabpanel" aria-labelledby="nav-Sanhok-tab" id="nav-Sanhok">
-								<button class="btn btn-dark" type="button" onclick="btnClick('Sanhok')">Go Sanhok</button>
-							</div>
+                            </div>
+                            <!--div-->
+                        </div>
+                        <!--part1 div-->
+                    </div>
+                    <!--col12 div-->
+                </div>
+                <!--row class-->
+            </div>
+            <!--container-->
+        </div>
 
-							<div class="tab-pane fade" role="tabpanel" aria-labelledby="nav-Enrangel-tab" id="nav-Enrangel">
-								<button class="btn btn-dark" type="button" onclick="btnClick('Erangel')">Go Erangel</button>
-							</div>
+        <div class="tab-pane fade" role="tabpanel" aria-labelledby="nav-Enrangel-tab" id="nav-Enrangel">
+            <div class="cover-container container-fluid; bg-dark text-white" id="mainErangel">
+                <div class="row">
+                    <div class="col-12">
+                        <div id="part1">
+                            <div>
+                                <header>
+                                    <h1 class="animated zoomInUp text-primary">Winna Winna
+                                        <br>Chi Kin Dinna
+                                        <br>
+                                        <br>
+                                    </h1>
+                                </header>
 
-							<div class="tab-pane fade" role="tabpanel" aria-labelledby="nav-Miramar-tab" id="nav-Miramar">
-								<button class="btn btn-dark" type="button" onclick="btnClick('Miramar')">Go Miramar</button>
-							</div>
+                                <p class="animated infinite pulse text-primary" id="pErangel"></p>
+                                <button class="btn btn-primary" type="button" onclick="btnClick('Erangel')">Go Erangel</button>
+                            </div>
+                            <!--div-->
+                        </div>
+                        <!--part1 div-->
+                    </div>
+                    <!--col12 div-->
+                </div>
+                <!--row class-->
+            </div>
+            <!--container-->
+            
+        </div>
 
-						</div>
-						<!--buttons class-->
-					</div>
-					<!--div-->
-				</div>
-				<!--part1 div-->
-			</div>
-			<!--col12 div-->
-		</div>
-		<!--row class-->
-	</div>
-	<!--container-->
+        <div class="tab-pane fade" role="tabpanel" aria-labelledby="nav-Miramar-tab" id="nav-Miramar">
+            <div class="cover-container container-fluid; bg-dark text-white" id="mainMiramar">
+                <div class="row">
+                    <div class="col-12">
+                        <div id="part1">
+                            <div>
+                                <header>
+                                    <h1 class="animated zoomInUp text-info">Winna Winna
+                                        <br>Chi Kin Dinna
+                                        <br>
+                                        <br>
+                                    </h1>
+                                </header>
+
+                                <p class="animated infinite pulse text-info" id="pMiramar"></p>
+                                <button class="btn btn-info" type="button" onclick="btnClick('Miramar')">Go Miramar</button>
+
+                            </div>
+                            <!--div-->
+                        </div>
+                        <!--part1 div-->
+                    </div>
+                    <!--col12 div-->
+                </div>
+                <!--row class-->
+            </div>
+            <!--container-->
+        </div>
+
+    </div>
+    <!--buttons class-->
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
 	 crossorigin="anonymous"></script>

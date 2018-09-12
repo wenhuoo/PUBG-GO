@@ -5,13 +5,13 @@ function getRndInteger(min, max) {
 function btnClick(input) {
 
     if (input == "Erangel") {
-        document.getElementById('target').innerHTML = townsErangel[getRndInteger(0, townsErangel.length - 1)];
+        document.getElementById('pErangel').innerHTML = townsErangel[getRndInteger(0, townsErangel.length - 1)];
     }
     else if (input == "Miramar") {
-        document.getElementById('target').innerHTML = townsMiramar[getRndInteger(0, townsMiramar.length - 1)];
+        document.getElementById('pMiramar').innerHTML = townsMiramar[getRndInteger(0, townsMiramar.length - 1)];
     }
     else if (input == "Sanhok") {
-        document.getElementById('target').innerHTML = townsSanhok[getRndInteger(0, townsSanhok.length - 1)];
+        document.getElementById('pSanhok').innerHTML = townsSanhok[getRndInteger(0, townsSanhok.length - 1)];
     }
 }
 
