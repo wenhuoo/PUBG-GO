@@ -6,7 +6,6 @@
   color: black
 }
 #pSanhok:hover, #pErangel:hover, #pMiramar:hover, #pBlackoutBeta:hover {
-  color: whitesmoke;
   font-size:xx-large;
   animation: none;
   
@@ -57,6 +56,15 @@ h1 {
   background-size: cover;
   overflow: hidden;
   height: 100%;
+}
+
+#pBlackoutBeta, #BlackoutBetah1 {
+  color: #FE6B01;
+}
+
+#BlackoutBetaBtn {
+  color: black;
+  background: #FE6B01;
 }
   
   #part1 {
