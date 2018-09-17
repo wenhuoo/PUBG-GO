@@ -13,6 +13,9 @@ function btnClick(input) {
     else if (input == "Sanhok") {
         document.getElementById('pSanhok').innerHTML = townsSanhok[getRndInteger(0, townsSanhok.length - 1)];
     }
+    else if (input == "BlackoutBeta") {
+        document.getElementById('pBlackoutBeta').innerHTML = townsBlackoutBeta[getRndInteger(0, townsBlackoutBeta.length - 1)];
+    }
 }
 
 
@@ -119,3 +122,20 @@ var townsSanhok = [
     "Ruins",
     "Quarry"
 ];
+
+var townsBlackoutBeta = [
+    "ESTATES",
+    "CONSTRUCTION SITE",
+    "TRAIN STATION",
+    "HYDRO DAM",
+    "FIRING RANGE",
+    "ASYLUM",
+    "ARRAY",
+    "RIVERTOWN",
+    "MUKETOWN ISLAND",
+    "CARGO DOCKS",
+    "FRACKING TOWER",
+    "TURBINE",
+    "FACTORY",
+    "LIGHTHOUSE"
+]

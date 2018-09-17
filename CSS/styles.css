@@ -1,11 +1,11 @@
-#pSanhok, #pErangel, #pMiramar {
+#pSanhok, #pErangel, #pMiramar, #pBlackoutBeta {
   margin-top: 12px; 
   font-size: 125%; 
   font-weight: bold; 
   font-variant: small-caps; 
   color: black
 }
-#pSanhok:hover, #pErangel:hover, #pMiramar:hover {
+#pSanhok:hover, #pErangel:hover, #pMiramar:hover, #pBlackoutBeta:hover {
   color: whitesmoke;
   font-size:xx-large;
   animation: none;
@@ -41,6 +41,16 @@ h1 {
 
 #mainMiramar{
   background: url(../IMG/BgMiramar.jpg) no-repeat center center fixed;  
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  height: 100%;
+}
+
+#mainBlackoutBeta{
+  background: url(../IMG/beta.jpg) no-repeat center center fixed;  
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
